@@ -1,0 +1,307 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X20 P1
+U 1 1 56E15A0E
+P 3350 2750
+F 0 "P1" H 3350 3800 50  0000 C CNN
+F 1 "CONN_02X20" V 3350 2750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 3350 1800 50  0001 C CNN
+F 3 "" H 3350 1800 50  0000 C CNN
+	1    3350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X20 P2
+U 1 1 56E15A69
+P 5100 2750
+F 0 "P2" H 5100 3800 50  0000 C CNN
+F 1 "CONN_02X20" V 5100 2750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 5100 1800 50  0001 C CNN
+F 3 "" H 5100 1800 50  0000 C CNN
+	1    5100 2750
+	1    0    0    -1  
+$EndComp
+Text Label 2950 1800 0    60   ~ 0
+3v3
+Text Label 2950 1900 0    60   ~ 0
+A2
+Text Label 2950 2000 0    60   ~ 0
+A3
+Text Label 2950 2100 0    60   ~ 0
+A4
+Text Label 2950 2200 0    60   ~ 0
+GND
+Text Label 2950 2300 0    60   ~ 0
+A6
+Text Label 2950 2400 0    60   ~ 0
+A7
+Text Label 2950 2500 0    60   ~ 0
+A8
+Text Label 2950 2600 0    60   ~ 0
+3v3
+Text Label 2900 2700 0    60   ~ 0
+A10
+Text Label 2900 2800 0    60   ~ 0
+A11
+Text Label 2900 2900 0    60   ~ 0
+A12
+Text Label 2900 3000 0    60   ~ 0
+GND
+Text Label 2900 3100 0    60   ~ 0
+A14
+Text Label 2900 3200 0    60   ~ 0
+A15
+Text Label 2900 3300 0    60   ~ 0
+A16
+Text Label 2900 3400 0    60   ~ 0
+A17
+Text Label 2900 3500 0    60   ~ 0
+A18
+Text Label 2900 3600 0    60   ~ 0
+A19
+Text Label 2900 3700 0    60   ~ 0
+GND
+Text Label 4700 1800 0    60   ~ 0
+3v3
+Text Label 4700 1900 0    60   ~ 0
+A2
+Text Label 4700 2000 0    60   ~ 0
+A3
+Text Label 4700 2100 0    60   ~ 0
+A4
+Text Label 4700 2200 0    60   ~ 0
+GND
+Text Label 4700 2300 0    60   ~ 0
+A6
+Text Label 4700 2400 0    60   ~ 0
+A7
+Text Label 4700 2500 0    60   ~ 0
+A8
+Text Label 4700 2600 0    60   ~ 0
+3v3
+Text Label 4700 2700 0    60   ~ 0
+A10
+Text Label 4700 2800 0    60   ~ 0
+A11
+Text Label 4700 2900 0    60   ~ 0
+A12
+Text Label 4700 3000 0    60   ~ 0
+GND
+Text Label 4700 3100 0    60   ~ 0
+A14
+Text Label 4700 3200 0    60   ~ 0
+A15
+Text Label 4700 3300 0    60   ~ 0
+A16
+Text Label 4700 3400 0    60   ~ 0
+A17
+Text Label 4700 3500 0    60   ~ 0
+A18
+Text Label 4700 3600 0    60   ~ 0
+A19
+Text Label 4700 3700 0    60   ~ 0
+GND
+Text Label 3600 1800 0    60   ~ 0
+5v
+Text Label 3600 1900 0    60   ~ 0
+5v
+Text Label 3600 2000 0    60   ~ 0
+GND
+Text Label 3600 2100 0    60   ~ 0
+B4
+Text Label 3600 2200 0    60   ~ 0
+B5
+Text Label 3600 2300 0    60   ~ 0
+B6
+Text Label 3600 2400 0    60   ~ 0
+B7
+Text Label 3600 2500 0    60   ~ 0
+B8
+Text Label 3600 2600 0    60   ~ 0
+B9
+Text Label 3600 2700 0    60   ~ 0
+GND
+Text Label 3600 2800 0    60   ~ 0
+B11
+Text Label 3600 2900 0    60   ~ 0
+B12
+Text Label 3600 3000 0    60   ~ 0
+B13
+Text Label 3600 3100 0    60   ~ 0
+B14
+Text Label 3600 3200 0    60   ~ 0
+GND
+Text Label 3600 3300 0    60   ~ 0
+B16
+Text Label 3600 3400 0    60   ~ 0
+GND
+Text Label 3600 3500 0    60   ~ 0
+B18
+Text Label 3600 3600 0    60   ~ 0
+B19
+Text Label 3600 3700 0    60   ~ 0
+B20
+Text Label 5350 1800 0    60   ~ 0
+5v
+Text Label 5350 1900 0    60   ~ 0
+5v
+Text Label 5350 2000 0    60   ~ 0
+GND
+Text Label 5350 2100 0    60   ~ 0
+B4
+Text Label 5350 2200 0    60   ~ 0
+B5
+Text Label 5350 2300 0    60   ~ 0
+B6
+Text Label 5350 2400 0    60   ~ 0
+B7
+Text Label 5350 2500 0    60   ~ 0
+B8
+Text Label 5350 2600 0    60   ~ 0
+B9
+Text Label 5350 2700 0    60   ~ 0
+GND
+Text Label 5350 2800 0    60   ~ 0
+B11
+Text Label 5350 2900 0    60   ~ 0
+B12
+Text Label 5350 3000 0    60   ~ 0
+B13
+Text Label 5350 3100 0    60   ~ 0
+B14
+Text Label 5350 3200 0    60   ~ 0
+GND
+Text Label 5350 3300 0    60   ~ 0
+B16
+Text Label 5350 3400 0    60   ~ 0
+GND
+Text Label 5350 3500 0    60   ~ 0
+B18
+Text Label 5350 3600 0    60   ~ 0
+B19
+Text Label 5350 3700 0    60   ~ 0
+B20
+Wire Wire Line
+	2950 1800 3100 1800
+Wire Wire Line
+	2950 1900 3100 1900
+Wire Wire Line
+	2950 2000 3100 2000
+Wire Wire Line
+	2950 2100 3100 2100
+Wire Wire Line
+	2950 2200 3100 2200
+Wire Wire Line
+	2950 2300 3100 2300
+Wire Wire Line
+	2950 2400 3100 2400
+Wire Wire Line
+	2950 2500 3100 2500
+Wire Wire Line
+	2950 2600 3100 2600
+Wire Wire Line
+	2900 2700 3100 2700
+Wire Wire Line
+	2900 2800 3100 2800
+Wire Wire Line
+	2900 2900 3100 2900
+Wire Wire Line
+	2900 3000 3100 3000
+Wire Wire Line
+	2900 3100 3100 3100
+Wire Wire Line
+	2900 3200 3100 3200
+Wire Wire Line
+	2900 3300 3100 3300
+Wire Wire Line
+	2900 3400 3100 3400
+Wire Wire Line
+	2900 3500 3100 3500
+Wire Wire Line
+	2900 3600 3100 3600
+Wire Wire Line
+	2900 3700 3100 3700
+Wire Wire Line
+	4700 1800 4850 1800
+Wire Wire Line
+	4700 1900 4850 1900
+Wire Wire Line
+	4700 2000 4850 2000
+Wire Wire Line
+	4700 2100 4850 2100
+Wire Wire Line
+	4700 2200 4850 2200
+Wire Wire Line
+	4700 2300 4850 2300
+Wire Wire Line
+	4700 2400 4850 2400
+Wire Wire Line
+	4700 2500 4850 2500
+Wire Wire Line
+	4700 2600 4850 2600
+Wire Wire Line
+	4700 2700 4850 2700
+Wire Wire Line
+	4700 2800 4850 2800
+Wire Wire Line
+	4700 2900 4850 2900
+Wire Wire Line
+	4700 3000 4850 3000
+Wire Wire Line
+	4700 3100 4850 3100
+Wire Wire Line
+	4700 3200 4850 3200
+Wire Wire Line
+	4700 3300 4850 3300
+Wire Wire Line
+	4700 3400 4850 3400
+Wire Wire Line
+	4700 3500 4850 3500
+Wire Wire Line
+	4700 3600 4850 3600
+Wire Wire Line
+	4700 3700 4850 3700
+$EndSCHEMATC
